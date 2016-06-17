@@ -1,0 +1,14 @@
+<%@ Master %>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <je:stylelink runat="server" href="/assets/css/main.css" />
+    <je:region runat="server" id="head" />
+</head>
+<body>
+    <je:region runat="server" id="main" />
+</body>
+</html>
