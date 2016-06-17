@@ -12,6 +12,7 @@
             <nav>
                 <ul>
                     <li><je:a runat="server" href="/">Homepage</je:a></li>
+                    <li><je:a runat="server" href="/cs/about.aspx">O autorovi</je:a></li>
                 </ul>                
             </nav>
         </header>
