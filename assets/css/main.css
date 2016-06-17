@@ -1,0 +1,32 @@
+body {
+    width: 100%;
+    max-width: 60rem;
+    margin: auto;
+}
+header {
+    background-color: gray;
+    padding: 1rem;
+}
+header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+header .logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    float: left;
+}
+header nav {
+    float: right;
+}
+header nav ul {
+    margin: 0;
+}header nav li {
+    list-style: none;
+    display: inline-block;
+}
