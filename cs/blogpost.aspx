@@ -20,6 +20,9 @@
             <main>
                 <je:item runat="server" field=".title" tag="h1" />
                 <je:item runat="server" field=".published" tag="time" />
+                <je:avar runat="server" href="category.aspx" container=".category">
+                    <je:item runat="server" field=".category.title" />
+                </je:avar>
                 <je:item runat="server" field=".text" tag="p" />
             </main>
         </body>
