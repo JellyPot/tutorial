@@ -19,7 +19,7 @@
     <je:item runat="server" field="about.text" tag="div" class="about" />
 
     <form method="post" runat="server">
-        <f:CollectionForm runat="server" id="contact" targetCollection="message">
+        <f:EmailForm runat="server" id="contact" targetCollection="message" emailTemplate="Forms/Contact">
             <formTemplate>
                 <label>Vaše jméno* <f:input runat="server"
                                             id="name"
@@ -38,7 +38,7 @@
             <sentTemplate>
                 <p>Zpráva byla odeslána. Díky!</p>
             </sentTemplate>      
-        </f:CollectionForm>
+        </f:EmailForm>
     </form>
 
 </je:content>
