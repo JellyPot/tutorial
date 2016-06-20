@@ -32,3 +32,19 @@ header nav li {
     display: inline-block;
     padding-left: 1rem;
 }
+form label {
+    display: block;
+    padding: .5rem;
+}
+form input, form textarea {
+    margin-left: 1rem;
+}
+.comment {
+    margin-top: 2rem;
+    border-left: 1px gray solid;
+    padding-left: 1rem;
+}
+.comment time {
+    font-size: .8rem;
+    padding-left: .5rem;
+}
