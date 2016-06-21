@@ -23,16 +23,23 @@
             <formTemplate>
                 <label>Vaše jméno* <f:input runat="server"
                                             id="name"
-                                            targetField="name" />
+                                            targetField="name"
+                                            validateAs="NotEmpty"
+                                            errTextValue="Jméno musíte zadat" />
                 </label>
                 <label>Email*      <f:input runat="server"
                                             id="email"
-                                            targetField="email" />
+                                            targetField="email"
+                                            validateAs="Email"
+                                            errTextValue="Není platný email" />
                 </label>
                 <label>Zpráva      <f:textarea runat="server"
                                                id="message"
-                                               targetField="message" />
+                                               targetField="message"
+                                               validateAs="NotEmpty"
+                                               errTextValue="Zprávu musíte zadat" />
                 </label>
+                <f:errMsgs runat="server" tag="p" separator="<br />" />
                 <f:sendButton runat="server" textValue="Odeslat" />
             </formTemplate>
             <sentTemplate>
