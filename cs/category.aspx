@@ -11,8 +11,8 @@
     <je:content runat="server" forRegion="main">
         <h1>Kategorie: <je:item runat="server" field=".title" /></h1>
         <je:repeater runat="server"
-                        source="blogPost"
-                        restrictField="category">
+                     source="blogPost"
+                     restrictField="category">
             <item>
                 <uc:teaser runat="server" />
             </item>
