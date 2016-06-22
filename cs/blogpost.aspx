@@ -9,10 +9,10 @@
         </head>
         <body>
             <header>
-                <div class="logo"><je:a runat="server" href="/">Můj blog</je:a></div>
+                <div class="logo"><je:a runat="server" href="/cs/">Můj blog</je:a></div>
                 <nav>
                     <ul>
-                        <li><je:a runat="server" href="/">Homepage</je:a></li>
+                        <li><je:a runat="server" href="/cs/">Homepage</je:a></li>
                     </ul>                
                 </nav>
             </header>

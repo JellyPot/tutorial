@@ -8,11 +8,9 @@
     </head>
     <body>
         <header>
-            <div class="logo"><je:a runat="server" href="/">Můj blog</je:a></div>
+            <je:a runat="server" class="logo" href="/cs/">Můj blog</je:a>
             <nav>
-                <ul>
-                    <li><je:a runat="server" href="/">Homepage</je:a></li>
-                </ul>                
+                <je:a runat="server" href="/cs/">Homepage</je:a>
             </nav>
         </header>
         <main>
@@ -23,7 +21,9 @@
                             <je:item runat="server" field=".title" />
                         </je:avar>
                     </h2>
-                    <je:item runat="server" field=".published" tag="time" />
+                    <je:item runat="server"
+                             field=".published"
+                             tag="time" />
                     <je:item runat="server"
                              field=".text"
                              format="length: 300"
