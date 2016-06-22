@@ -8,12 +8,10 @@
     </head>
     <body>
         <header>
-            <div class="logo"><je:a runat="server" href="/">Můj blog</je:a></div>
+            <je:a runat="server" class="logo" href="/cs/">Můj blog</je:a>
             <nav>
-                <ul>
-                    <li><je:a runat="server" href="/">Homepage</je:a></li>
-                    <li><je:a runat="server" href="/cs/about.aspx">O autorovi</je:a></li>
-                </ul>                
+                <je:a runat="server" href="/cs/">Homepage</je:a>
+                <je:a runat="server" href="/cs/about.aspx">O autorovi</je:a>
             </nav>
         </header>
         <main>
